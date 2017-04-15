@@ -237,7 +237,9 @@ label {
 script {
 	z-index: 995;
 }
+/* Establishes behavior for smaller screens that are 980p or smaller */
 @media screen and (max-width: 980px) {
+	/* Establishes dimensions for the main content area and banner */
 	.banner {
 		max-width: 920px;
 		width: 100%;
@@ -247,7 +249,9 @@ script {
 		width: 100%;
 	}
 }
+/* Establishes page behavior when screen is 768p or smaller */
 @media screen and (max-width: 768px) {
+	/*Establishes main content parameters */
 	.content {
 		width: 648px;
 		float: none;
@@ -261,6 +265,7 @@ script {
 	.container {
 		width: 100%;
 	}
+	/* Makes fonts more ledgible for tablets */
 	p {
 		font-size: 18px;
 	}
@@ -271,6 +276,7 @@ script {
 		font-size: 18px;
 	}
 }
+/* WHen the screen is smaller than 640p */
 @media screen and (max-width: 640px) {
 	header {
 		position: static;
@@ -280,22 +286,26 @@ script {
 		margin-right: 30px;
 		width: 100%;
 	}
+	/* Makes the header even with centered text */
 	h1 {
 		text-align: center;
 		width: 100%;
 	}
+	/*Establishes main content block behavior */
 	.content {
 		width: 100%;
 		max-width: 520px;
 		float: none;
 		margin: 75px auto;
 	}
+	/* Establishes connection box behavior with smaller screen */
 	.connect {
 		width: 100%;
 		max-width: 520px;
 		margin: 105px auto;
 		float: none;
 	}
+	/* changes the navbar to be helow the main heading */
 	nav {
 		display: flex;
 		justify-content: space-around;
@@ -308,17 +318,21 @@ script {
 		float: none;
 		border-bottom: solid 2px #cccccc;
 	}
+	/* makes cats images fit better */
 	.cats {
 		width: 100%;
 	}
+	/*Establishes text banner size over cat pictures */
 	h4 {
 		width: 100%;
 		font-size: 22px;
 	}
+	/* changes size for my face on picture */
 	#face {
 		width: 100%;
 		display: inline;
 	}
+	/*Establishes font size fr readability on phone */
 	p {
 		display: block;
 		font-size: 22px;
@@ -326,6 +340,7 @@ script {
 	a {
 		font-size: 22px;
 	}
+	/* Makes the floating header stop from being transparent or scrolling */
 	body.scrolled #main-menu {
 	opacity: 1;
 	position: static;
