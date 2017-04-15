@@ -56,21 +56,34 @@ body.scrolled #main-menu:hover {
 	height: 60px;
 	position: relative;
 }
-/* Navigational link parameters established */
-.link-box {
-	padding: 30px 0px 0px 20px;
-	height: 55px;
-	right: 0px;
-	display: inline;
-	position: absolute;
+/* Navbar parameters established */
+nav {
+  float: right;
+  margin-top: 25px;
 }
-/* Establishes main content parameters (container and connect blocks) */
-.content {
-	width: 960px;
+
+nav a {
+  display: inline-block;
+  padding-left: 15px;
+  margin-left: 15px;
+  line-height: 18px;
+  color: #999;
+  text-decoration: none;
+  border-left: 1px solid #efefef;
+}
+
+nav a:first-child {
+  border-left: 0 none;
+}
+
+/* Establishes main container parameters (content and connect blocks) */
+.container {
+	width: 100%;
+	max-width: 960px;
 	margin: 0px auto;
 }
 /* Establish main unique block on each page */
-.container {
+.content {
 	width: 590px;
 	border: solid 2px #dddddd;
 	float: left;
@@ -221,22 +234,4 @@ label {
 }
 script {
 	z-index: 995;
-}
-@media screen and (max-width: 980px) {
-	body {
-	max-width: 980px;
-	}
-}
-@media screen and (max-width: 768px) {
-	body {
-	max-width: 768px;
-		}
-}
-@media screen and (max-width: 640px) {
-	body {
-		max-width: 640px;
-	}
-	header {
-		position: static;
-	}
 }
