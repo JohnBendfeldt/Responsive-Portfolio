@@ -285,12 +285,14 @@ script {
 		width: 100%;
 	}
 	.content {
-		width: 520px;
+		width: 100%;
+		max-width: 520px;
 		float: none;
 		margin: 75px auto;
 	}
 	.connect {
-		width: 520px;
+		width: 100%;
+		max-width: 520px;
 		margin: 105px auto;
 		float: none;
 	}
