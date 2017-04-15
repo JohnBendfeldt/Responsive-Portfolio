@@ -222,3 +222,21 @@ label {
 script {
 	z-index: 995;
 }
+@media screen and (max-width: 980px) {
+	body {
+	max-width: 980px;
+	}
+}
+@media screen and (max-width: 768px) {
+	body {
+	max-width: 768px;
+		}
+}
+@media screen and (max-width: 640px) {
+	body {
+		max-width: 640px;
+	}
+	header {
+		position: static;
+	}
+}
