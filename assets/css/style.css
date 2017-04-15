@@ -51,7 +51,8 @@ body.scrolled #main-menu:hover {
 }
 /* Makes sure heading and contents line up */
 .banner {
-	width: 960px;
+	width: 100%;
+	max-width: 960px;
 	margin: 0px auto;
 	height: 60px;
 	position: relative;
@@ -234,4 +235,13 @@ label {
 }
 script {
 	z-index: 995;
+}
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 640px) {
+
 }
