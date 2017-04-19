@@ -77,6 +77,12 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+.active {
+	background-color: #cccccc;
+	border-radius: 4px;
+	padding: 4px 8px 4px 8px;
+	color: #FFFFFF;
+}
 /* Establishes main container parameters (content and connect blocks) */
 .container {
 	width: 100%;
