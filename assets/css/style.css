@@ -159,7 +159,7 @@ p {
 /* Establish icon aesthetics and behaviors with hover features */
 .icons {
 	display: inline-block;
-	margin: 0px 5px 30px 0px;
+	margin: 0px 15px 30px 0px;
 	width: 60px;
 	height: 60px;
 }
@@ -198,7 +198,7 @@ h4 {
    padding: 10px 0px 10px 0px;
    margin: auto;
    left: 15px;
-   bottom: 50px;
+   bottom: 20px;
 }
 /* Establishes sticky footer */
 footer {
@@ -262,6 +262,15 @@ script {
 	.container {
 		max-width: 920px;
 		width: 100%;
+	}
+	.icons {
+		margin: 0px 5px 30px 0px;
+	}
+	.cats {
+		{
+		margin: 0px 5px 30px 0px;
+	}
+
 	}
 }
 /* Establishes page behavior when screen is 768p or smaller */
