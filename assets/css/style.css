@@ -269,12 +269,6 @@ script {
 	.icons {
 		margin: 0px 5px 30px 0px;
 	}
-	.work {
-		{
-		margin: 0px 5px 30px 0px;
-	}
-
-	}
 }
 /* Establishes page behavior when screen is 768p or smaller */
 @media screen and (max-width: 768px) {
@@ -336,11 +330,6 @@ script {
 	}
 	.active {
 		padding: 0px;
-	}
-	/*Establishes text banner size over protfolio pictures */
-	h4 {
-		width: 100%;
-		font-size: 22px;
 	}
 	/* changes size for my face on picture */
 	#face {
