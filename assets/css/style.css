@@ -24,6 +24,11 @@ h1 {
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	color: #FFFFFF;
 	font-size: 36px;
+	text-shadow:
+			-1px -1px 0 #D9AF8B,  
+			1px -1px 0 #D9AF8B,
+			-1px 1px 0 #D9AF8B,
+			1px 1px 0 #D9AF8B;
 }
 h1,
 h2,
@@ -158,21 +163,20 @@ p {
 /* Establish icon aesthetics and behaviors with hover features */
 .icons {
 	display: inline-block;
-	margin: 0px 15px 30px 0px;
+	margin: 0px 10px 30px 0px;
 	width: 60px;
 	height: 60px;
 }
 .icons:hover {
 	box-shadow: 4px 4px 2px #4AAAA5;
 }
-/* cat pictures and parameters established with hover features*/
+/* portfolio pictures and parameters established with hover features*/
 .work {
-	display: flex;
-	justify-content: space-around;
-	width: 230px;
-	height: 200px;
+	width: 220px;
+	height: 180px;
 	z-index: 16;
-	margin: 15px 15px;
+	margin: 15px 15px 15px 0px;
+	border: 3px solid #D9AF8B;
 }
 .work:hover {
 	box-shadow: 4px 4px 2px #4AAAA5;
@@ -187,18 +191,17 @@ p {
 img {
 	z-index: 20;
 }
-/* establishes parameters for banners over the cat images */
+/* establishes parameters for banners over the portfolio images */
 h4 {
    position: absolute;
-   width: 230px;
+   width: 225px;
    background-color: #4AAAA5;
    color: #FFFFFF;
    font-family: "Georgia", Times, "Times New Roman", serif;
    text-align: center;
    padding: 10px 0px 10px 0px;
    margin: auto;
-   left: 15px;
-   bottom: 20px;
+   bottom: 35px;
 }
 /* Establishes sticky footer */
 footer {
@@ -266,7 +269,7 @@ script {
 	.icons {
 		margin: 0px 5px 30px 0px;
 	}
-	.cats {
+	.work {
 		{
 		margin: 0px 5px 30px 0px;
 	}
@@ -334,11 +337,7 @@ script {
 	.active {
 		padding: 0px;
 	}
-	/* makes cats images fit better */
-	.cats {
-		width: 100%;
-	}
-	/*Establishes text banner size over cat pictures */
+	/*Establishes text banner size over protfolio pictures */
 	h4 {
 		width: 100%;
 		font-size: 22px;
@@ -348,7 +347,7 @@ script {
 		width: 100%;
 		display: inline;
 	}
-	/*Establishes font size fr readability on phone */
+	/*Establishes font size for readability on phone */
 	p {
 		display: block;
 		font-size: 22px;
