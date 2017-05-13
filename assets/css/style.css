@@ -187,14 +187,19 @@ img {
 /* establishes parameters for banners over the portfolio images */
 h4 {
    position: absolute;
-   width: 225px;
+   width: 100%;
+   max-width: 220px;
    background-color: #4AAAA5;
    color: #FFFFFF;
    font-family: "Georgia", Times, "Times New Roman", serif;
    text-align: center;
-   padding: 10px 0px 10px 0px;
+   padding: 5px 0px;
    margin: auto;
-   bottom: 35px;
+   left: 3px;
+   top: 105px;
+   height: 65px;
+   font-weight: bold;
+   font-size: 20px;
 }
 /* Establishes sticky footer */
 footer {
