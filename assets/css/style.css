@@ -180,9 +180,11 @@ p {
    display: inline-block;
    z-index: 1;
 }
-
 img {
 	z-index: 20;
+}
+img:hover {
+	box-shadow: 4px 4px 2px #4AAAA5;
 }
 /* establishes parameters for banners over the portfolio images */
 h4 {
