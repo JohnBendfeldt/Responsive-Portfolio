@@ -336,6 +336,7 @@ script {
 		margin: 0px auto;
 		float: none;
 		border-bottom: solid 2px #cccccc;
+		box-shadow: 3px 3px 10px #666972;
 	}
 	.active {
 		padding: 0px;
