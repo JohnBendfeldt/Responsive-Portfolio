@@ -285,16 +285,7 @@ script {
 	.container {
 		width: 100%;
 	}
-	/* Makes fonts more ledgible for tablets */
-	p {
-		font-size: 18px;
-	}
-	a {
-		font-size: 18px;
-	}
-	h4 {
-		font-size: 18px;
-	}
+
 	.content {
     width: 85%;
     border: solid 2px #dddddd;
@@ -314,7 +305,6 @@ script {
 @media screen and (max-width: 640px) {
 	header {
 		position: static;
-		height: 75px;
 	}
 	.container {
 		margin: auto;
@@ -324,6 +314,7 @@ script {
 	h1 {
 		text-align: center;
 		width: 100%;
+		padding: 10px 0px !important;
 	}
 	/* changes the navbar to be helow the main heading */
 	nav {
@@ -332,7 +323,6 @@ script {
 		background-color: #FFFFFF;
 		width: 100%;
 		text-align: center;
-		padding-top: 10px;
 		margin: 0px auto;
 		float: none;
 		border-bottom: solid 2px #cccccc;
@@ -349,10 +339,6 @@ script {
 	/*Establishes font size for readability on phone */
 	p {
 		display: block;
-		font-size: 22px;
-	}
-	a {
-		font-size: 22px;
 	}
 	/* Makes the floating header stop from being transparent or scrolling */
 	body.scrolled #main-menu {
